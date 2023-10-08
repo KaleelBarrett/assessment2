@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ee9322;
+  color: #f2a541;
 }
 
 .cont {
@@ -84,12 +84,12 @@ nav ul li a:hover {
   margin-top: 20px;
   position: absolute;
   bottom: 40px;
-  left: 50%;
+  left: 52%;
   transform: translateX(-50%);
 }
 
 .socials a {
-  margin-right: 10px;
+  margin-right: 20px;
   display: block;
 }
 
@@ -111,6 +111,9 @@ nav ul li a:hover {
 /* Style for Home page */
 .hero {
   margin-top: 50px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero .me {
@@ -120,13 +123,28 @@ nav ul li a:hover {
   background-color: white;
 }
 
-.hero h1 {
-  color: #d83f31;
+.hero h1,
+.hero p {
+  color: #f08a4b;
+  background-color: transparent;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 50%;
+  text-align: center;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  width: fit-content;
+  margin-left: 575px;
 }
 
 .hero p {
-  color: #ee9322;
-  font-size: 24px;
+  margin-left: 550px;
+}
+
+.hero h1:hover,
+.hero p:hover {
+  background-color: #577590;
+  color: #fff;
 }
 
 /* Style for Personal page */
@@ -162,8 +180,8 @@ nav ul li a:hover {
 
 .resume-header {
   text-align: center;
-  font-family: "Lobster Two", bold;
   font-size: 50px;
+  color: #f2a541;
 }
 
 .resume-image {
@@ -219,13 +237,13 @@ strong {
 
 .vision-mission h2 {
   font-size: 24px;
-  color: #d83f31;
+  color: #f2a541;
   margin-bottom: 10px;
 }
 
 .vision-mission p {
   font-size: 16px;
-  color: #e9b824;
+  color: #577590;
   line-height: 1.5;
   margin-bottom: 20px;
 }
